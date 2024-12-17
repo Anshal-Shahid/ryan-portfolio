@@ -893,6 +893,7 @@ form textarea {
     padding: 0rem .15rem;
     font-size: 1.2rem;
     margin-bottom: 1rem;
+    padding-bottom: .35rem;
 }
 
 .section-8 form input:focus,
@@ -914,8 +915,8 @@ form textarea:focus {
 }
 
 .section-8 form button {
-    width: 4.5rem;
-    height: 1.9rem;
+    width: 6rem;
+    height: 2rem;
     border-radius: .15rem;
     font-size: .9rem;
     cursor: pointer;
@@ -1044,6 +1045,12 @@ footer .socials i {
 }
 
 @media (max-width:760px) {
+    .nav-1 ul {
+       
+        font-size: 1.1rem;
+        gap: 1.7rem;
+    }
+
     .hero{
         min-height: 60vh;
     }
@@ -1061,6 +1068,10 @@ footer .socials i {
     .section-2 .boxes {
 
         padding: .5rem 3rem;
+    }
+    .section-2 .boxes .box p{
+        font-size: .85rem;
+        width: 96%;
     }
 
     .section-3 {
@@ -1249,10 +1260,20 @@ footer .socials i {
         margin-left: .25rem;
     }
 
+    .section-8 form label {
+        font-size: 1.5rem;
+    }
+
 }
 
 
 @media (max-width:420px) {
+    .nav-1 ul {
+       
+        font-size: 1.2rem;
+        gap: 1.7rem;
+    }
+
     .hero{
         min-height: 50vh;
     }
@@ -1275,6 +1296,14 @@ footer .socials i {
     .section-2 .boxes {
         padding: .5rem 1.5rem;
         /* grid-template-columns: 1fr 1fr; */
+    }
+    .section-2 .boxes .box p{
+        font-size: 1rem;
+        width: 96%;
+    }
+    .section-2 .boxes .box h2{
+        font-size: 1.3rem;
+        /* width: 96%; */
     }
 
     .section-3 {
@@ -1317,6 +1346,21 @@ footer .socials i {
     .section-7 .sub-section-2 .text {
         margin-top: 2rem;
     }
+
+    .section-8 form button {
+        width: 6rem;
+        height: 2.4rem;
+        font-size: .95rem;
+        
+    
+        &:hover {
+            background-color: transparent;
+            border: 2px solid var(--secondary-color);
+            color: var(--secondary-color);
+        }
+    }
+    
+   
 }
 
 
@@ -1346,4 +1390,18 @@ footer .socials i {
         width: 16em;
         height: 14em;
     }
+
+
+    .section-8 form label {
+        font-size: 1.6rem;
+    }
+
+    .section-8 form input,
+form textarea {
+    padding: 0rem .15rem;
+    font-size: 1.35rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: .35rem;
+}
+
 }
