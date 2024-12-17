@@ -353,7 +353,7 @@ span {
 
 }
 
-.section-3 .content{
+.section-3 .content {
     display: flex;
     gap: 1rem;
     height: fit-content;
@@ -420,6 +420,7 @@ span {
     margin-top: .5rem;
     font-size: .8rem;
     border-radius: .2rem;
+
     /* padding: 1rem 0rem; */
     &:hover {
         cursor: pointer;
@@ -635,20 +636,21 @@ span {
 /* section-7 */
 
 .section-7 {
-    min-height: 200vh;
+    min-height: fit-content;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 6rem;
     font-family: hel;
     padding: 2rem 0rem;
+    padding-bottom: 5rem;
     background-color: white;
     font-size: 24px;
 }
 
 .section-7 .sub-section-1 {
     display: flex;
-    gap: .5em;
+    gap: 3.5em;
     width: 75vw;
     /* background-color: yellow; */
 }
@@ -686,8 +688,8 @@ span {
 }
 
 .section-7 .sub-section-1 .img img {
-    width: 18em;
-    height: 14em;
+    width: 16em;
+    height: 12em;
 }
 
 
@@ -712,7 +714,7 @@ span {
     color: var(--tertiary-color);
     overflow-wrap: break-word;
     width: 11em;
-    height: 10em;
+    height: auto;
     padding: .8em;
     border-radius: .9em;
     display: flex;
@@ -741,7 +743,7 @@ span {
 
 .section-7 .sub-section-2 {
     display: flex;
-    width: 75vw;
+    width: 80vw;
     gap: 1em;
 }
 
@@ -783,6 +785,7 @@ span {
     background-color: var(--secondary-color);
     color: var(--primary-color);
     transition: all .1s ease;
+    margin-top: 1em;
 
     &:hover {
         cursor: pointer;
@@ -803,8 +806,10 @@ span {
 /* section-8 */
 
 .section-8 {
-    min-height: 85vh;
-    padding: 1rem 6rem;
+    min-height: fit-content;
+
+    padding: 1rem 4.5rem;
+    padding-bottom: 2.5rem;
     /* padding-top: 2rem; */
     font-family: hel;
     column-gap: 1.5rem;
@@ -823,7 +828,7 @@ span {
 
 .section-8 .contact {
     display: flex;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
 }
 
 .section-8 .sub-section-1 {
@@ -843,13 +848,22 @@ span {
     /* margin-bottom: 3rem; */
 }
 
-.section-8 .son.sub-section-1 i {
-    font-size: 1.1rem;
+.section-8 .sub-section-1 p {
+    width: 80%;
+    font-size: .9rem;
+    margin-bottom: .5rem;
+}
+
+.section-8 .sub-section-1 i {
+    font-size: 1.35rem;
 }
 
 .section-8 .sub-section-1 a {
     font-size: 1.1rem;
     margin-left: .25rem;
+    color: var(--secondary-color);
+    position: relative;
+    bottom: .2rem;
 }
 
 .section-8 .sub-section-2 {
@@ -949,17 +963,38 @@ footer .socials i {
 
 
 @media (max-width:1200px) {
+    .hero .div-1 h2 {
+        font-size: 2.3rem;
+        line-height: 3.3rem;
+        width: 85%;
+        
+    }
     .section-6 .service {
         font-size: 22px;
     }
+
+    .section-7 {
+        font-size: 22px;
+    }
+
+    
 }
 
 @media (max-width:1000px) {
-    .section-3{
-        gap: 2rem;
+    .hero{
+        min-height: 55vh;
+    }
+    .hero .div-1 h2 {
+        font-size: 2rem;
+        line-height: 2.4rem;
+        width: 85%;
         
+    }
+    .section-3 {
+        gap: 2rem;
 
     }
+
     .section-6 .service {
         font-size: 20px;
     }
@@ -968,15 +1003,67 @@ footer .socials i {
         font-size: .8em;
     }
 
+    .section-7 {
+        font-size: 20px;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    .section-7 .sub-section-1 {
+        width: 90vw;
+        gap: 1em;
+
+    }
+
+    .section-7 .sub-section-1 .text .boxes {
+        gap: .5em;
+    }
+
+    .section-7 .sub-section-1 .text .boxes .box {
+        width: 100%;
+        height: auto;
+
+    }
+
+    .section-7 .sub-section-1 .text .boxes .box h3 {
+        font-size: .8em;
+    }
+
+    .section-7 .sub-section-1 .text .boxes .box p {
+        font-size: .6em;
+    }
+
+    .section-7 .sub-section-2 {
+        width: 90vw;
+    }
+
+    .section-7 .sub-section-2 .img img {
+        width: 18em;
+        height: 17em;
+    }
 }
 
 @media (max-width:760px) {
+    .hero{
+        min-height: 60vh;
+    }
+    .hero .div-1 h2 {
+        font-size: 2.8rem;
+        line-height: 2.9rem;
+        width: 80%;
+        
+    }
+    .hero .div-2{
+        display: none;
+    }
+
+
     .section-2 .boxes {
-  
+
         padding: .5rem 3rem;
     }
-    
-    .section-3{
+
+    .section-3 {
         padding: 6rem 2rem;
         /* min-height: 70vh;
         min-height: fit-content; */
@@ -984,24 +1071,26 @@ footer .socials i {
 
     }
 
-    .section-3 .img{
+    .section-3 .img {
         flex: 1;
     }
+
     .section-3 .img img {
         width: 18rem;
         height: 20rem;
 
     }
-    
-    .section-3 .text{
+
+    .section-3 .text {
         flex: 1;
         /* background-color: yellow; */
     }
 
-    .section-5{
+    .section-5 {
         padding: 4rem 2rem;
     }
-    .section-5 .text p{
+
+    .section-5 .text p {
         width: 80%;
         font-size: .94rem;
     }
@@ -1016,16 +1105,66 @@ footer .socials i {
     .section-6 .services .service h2 {
         /* font-size: .7em; */
     }
-    .section-3 .text p{
+
+    .section-3 .text p {
         font-size: .8rem;
+    }
+
+
+
+    .section-7 {
+        font-size: 17px;
+    }
+
+    .section-7 .sub-section-1 {
+        width: 92vw;
+        gap: .8em;
+
+    }
+
+    .section-7 .sub-section-1 .text .boxes {
+        gap: .5em;
+    }
+
+    .section-7 .sub-section-1 .text .boxes .box {
+        width: 100%;
+        height: auto;
+
+    }
+
+    .section-7 .sub-section-1 .text .boxes .box h3 {
+        font-size: .8em;
+    }
+
+    .section-7 .sub-section-1 .text .boxes .box p {
+        font-size: .6em;
+    }
+
+    .section-7 .sub-section-1 .img img {
+        width: 14em;
+        height: 11em;
+    }
+
+    .section-8 {
+        padding: 1rem 2.5rem;
+
     }
 }
 
 @media (max-width:620px) {
-    .section-2{
+    .hero{
+        min-height: 55vh;
+    }
+    .hero .div-1 h2 {
+        font-size: 2.5rem;
+        line-height: 2.9rem;
+        width: 90%;
+        
+    }
+    .section-2 {
         /* background-color: aqua; */
         min-height: 60vh;
-        
+
     }
 
 
@@ -1033,32 +1172,112 @@ footer .socials i {
         padding: .5rem 1.5rem;
         grid-template-columns: 1fr 1fr;
     }
-    .section-6 .services{
+
+    .section-6 .services {
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
     }
+
     .section-6 .services .service {
         font-size: 17px;
-        width: 35vw ;
+        width: 35vw;
     }
 
-    .section-6 .service-box p{
+    .section-6 .service-box p {
         font-size: 1.1em !important;
     }
+
+
+
+    .section-7 {
+        font-size: 15.5px;
+    }
+
+    .section-7 .sub-section-1 {
+        justify-content: center;
+    }
+
+    .section-7 .sub-section-1 .text {
+        width: 90%;
+    }
+
+    .section-7 .sub-section-1 .img {
+        display: none;
+
+    }
+
+    .section-7 .sub-section-2 {
+        flex-direction: column;
+        width: 90vw;
+        gap: 1em;
+    }
+
+    .section-7 .sub-section-2 .img img {
+        width: 18em;
+        height: 15.5em;
+    }
+
+
+    .section-8 .contact {
+        flex-direction: column-reverse;
+    }
+
+    .section-8 .contact .sub-section-1 {
+        margin-top: 2rem;
+    }
+
+    .section-8 .sub-section-1 p {
+        width: 80%;
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .section-8 .sub-section-1 i {
+        font-size: 1.65rem;
+    }
+    .section-8 .sub-section-1 .email {
+        margin-bottom: 1rem;
+    }
+    .section-8 .sub-section-1 .socials {
+        gap: .8rem;
+        display: flex;
+    }
+
+    .section-8 .sub-section-1 a {
+        font-size: 1.4rem;
+        margin-left: .25rem;
+    }
+
 }
 
 
 @media (max-width:420px) {
-    .section-2{
+    .hero{
+        min-height: 50vh;
+    }
+    .hero .div-1 h2 {
+        font-size: 2.8rem;
+        line-height: 2.9rem;
+        width: 90%;
+        
+    }
+
+
+
+    .section-2 {
         /* background-color: aqua; */
         min-height: 60vh;
-        
+
     }
 
 
     .section-2 .boxes {
         padding: .5rem 1.5rem;
         grid-template-columns: 1fr 1fr;
+    }
+
+    .section-3 {
+        padding: 6rem .5rem;
     }
 
     .section-3 .img img {
@@ -1066,26 +1285,57 @@ footer .socials i {
         height: 18rem;
 
     }
-    
-    .section-5 .text p{
+
+    .section-5 .text p {
         width: 100%;
         font-size: .94rem;
     }
-    
-    
-    
-    .section-6 .services{
+
+
+
+    .section-6 .services {
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
     }
+
     .section-6 .services .service {
         font-size: 17px;
-        width: 35vw ;
+        width: 35vw;
     }
 
-    /* .section-6 .services .service-box p {
-        font-size: 1.6em;
-    } */
+
+    .section-7 {
+        font-size: 13.5px;
+    }
+
+    .section-7 .sub-section-1 .text {
+        width: 95%;
+    }
+
+    .section-7 .sub-section-2 .text {
+        margin-top: 2rem;
+    }
 }
 
 
+@media (max-width:360px) {
+
+    .hero{
+        min-height: 45vh;
+    }
+    .hero .div-1 h2 {
+        font-size: 2.8rem;
+        line-height: 2.9rem;
+        width: 90%;
+        
+    }
+
+    .section-7 .sub-section-1 .text {
+        width: 105%;
+    }
+
+    .section-7 .sub-section-2 .img img {
+        width: 16em;
+        height: 14em;
+    }
+}
