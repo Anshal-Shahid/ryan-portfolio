@@ -155,7 +155,7 @@ span {
     padding: .2rem;
     border-radius: .2rem;
     color: var(--tertiary-colors);
-
+    font-weight: normal;
     &:hover {
         background-color: var(--secondary-color);
         color: var(--primary-color);
@@ -968,8 +968,9 @@ footer .socials i {
         font-size: 2.3rem;
         line-height: 3.3rem;
         width: 85%;
-        
+
     }
+
     .section-6 .service {
         font-size: 22px;
     }
@@ -978,19 +979,21 @@ footer .socials i {
         font-size: 22px;
     }
 
-    
+
 }
 
 @media (max-width:1000px) {
-    .hero{
+    .hero {
         min-height: 55vh;
     }
+
     .hero .div-1 h2 {
         font-size: 2rem;
         line-height: 2.4rem;
         width: 85%;
-        
+
     }
+
     .section-3 {
         gap: 2rem;
 
@@ -1011,7 +1014,7 @@ footer .socials i {
     }
 
     .section-7 .sub-section-1 {
-        width: 90vw;
+        width: 95vw;
         gap: 1em;
 
     }
@@ -1046,21 +1049,23 @@ footer .socials i {
 
 @media (max-width:760px) {
     .nav-1 ul {
-       
+
         font-size: 1.1rem;
         gap: 1.7rem;
     }
 
-    .hero{
+    .hero {
         min-height: 60vh;
     }
+
     .hero .div-1 h2 {
         font-size: 2.8rem;
         line-height: 2.9rem;
         width: 80%;
-        
+
     }
-    .hero .div-2{
+
+    .hero .div-2 {
         display: none;
     }
 
@@ -1069,7 +1074,8 @@ footer .socials i {
 
         padding: .5rem 3rem;
     }
-    .section-2 .boxes .box p{
+
+    .section-2 .boxes .box p {
         font-size: .85rem;
         width: 96%;
     }
@@ -1102,8 +1108,8 @@ footer .socials i {
     }
 
     .section-5 .text p {
-        width: 80%;
-        font-size: .94rem;
+        width: 98%;
+        font-size: 1.2rem;
     }
 
 
@@ -1128,28 +1134,39 @@ footer .socials i {
     }
 
     .section-7 .sub-section-1 {
-        width: 92vw;
+        width: 98vw;
         gap: .8em;
 
+    }
+
+    .section-7 .sub-section-1 .text>p {
+        font-size: 1em;
+        width: 85%;
+    }
+
+    .section-7 .sub-section-1 .text .boxes .box i {
+        font-size: 2.4em;
     }
 
     .section-7 .sub-section-1 .text .boxes {
         gap: .5em;
         grid-template-columns: 1fr;
+        row-gap: .9em;
     }
 
     .section-7 .sub-section-1 .text .boxes .box {
         width: 100%;
         height: auto;
+        border-radius: .7em;
 
     }
 
     .section-7 .sub-section-1 .text .boxes .box h3 {
-        font-size: .8em;
+        font-size: 1.4em;
     }
 
     .section-7 .sub-section-1 .text .boxes .box p {
-        font-size: .6em;
+        font-size: 1.05em;
     }
 
     .section-7 .sub-section-1 .img img {
@@ -1157,22 +1174,45 @@ footer .socials i {
         height: 11em;
     }
 
+
+    .section-7 .sub-section-2 .text h3 {
+        font-size: 1.5em;
+    }
+
+    .section-7 .sub-section-2 .text p {
+        font-size: .95em;
+        width: 95%;
+    }
+
     .section-8 {
         padding: 1rem 2.5rem;
 
     }
+
+    footer{
+        min-height: 15vh;
+    }
+
+    footer .text p{
+        font-size: 1.3rem;
+    }
+    footer .socials i{
+        font-size: 1.7rem;
+    }
 }
 
 @media (max-width:620px) {
-    .hero{
+    .hero {
         min-height: 55vh;
     }
+
     .hero .div-1 h2 {
         font-size: 2.5rem;
         line-height: 2.9rem;
         width: 90%;
-        
+
     }
+
     .section-2 {
         /* background-color: aqua; */
         min-height: 60vh;
@@ -1184,7 +1224,7 @@ footer .socials i {
         padding: .5rem 1.5rem;
         grid-template-columns: 1fr 1fr;
     }
-  
+
     .section-6 .services {
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
@@ -1213,6 +1253,7 @@ footer .socials i {
         width: 90%;
     }
 
+
     .section-7 .sub-section-1 .img {
         display: none;
 
@@ -1240,16 +1281,18 @@ footer .socials i {
 
     .section-8 .sub-section-1 p {
         width: 80%;
-        font-size: 1rem;
+        font-size: 1.4rem;
         margin-bottom: 1rem;
     }
 
     .section-8 .sub-section-1 i {
         font-size: 1.65rem;
     }
+
     .section-8 .sub-section-1 .email {
         margin-bottom: 1rem;
     }
+
     .section-8 .sub-section-1 .socials {
         gap: .8rem;
         display: flex;
@@ -1261,27 +1304,32 @@ footer .socials i {
     }
 
     .section-8 form label {
-        font-size: 1.5rem;
+        font-size: 1.7rem;
     }
 
 }
 
 
 @media (max-width:420px) {
+    .nav-1{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
     .nav-1 ul {
-       
+
         font-size: 1.2rem;
         gap: 1.7rem;
     }
 
-    .hero{
+    .hero {
         min-height: 50vh;
     }
+
     .hero .div-1 h2 {
         font-size: 2.8rem;
         line-height: 2.9rem;
         width: 90%;
-        
+
     }
 
 
@@ -1294,15 +1342,19 @@ footer .socials i {
 
 
     .section-2 .boxes {
-        padding: .5rem 1.5rem;
+        padding: .5rem .5rem;
         /* grid-template-columns: 1fr 1fr; */
     }
-    .section-2 .boxes .box p{
-        font-size: 1rem;
+    .section-2 .boxes .box i{
+        font-size: 2.2rem;
+    }
+    .section-2 .boxes .box p {
+        font-size: .9rem;
         width: 96%;
     }
-    .section-2 .boxes .box h2{
-        font-size: 1.3rem;
+
+    .section-2 .boxes .box h2 {
+        font-size: 1.55rem;
         /* width: 96%; */
     }
 
@@ -1310,11 +1362,12 @@ footer .socials i {
         padding: 6rem 2.5rem;
     }
 
-    .section-3 .content{
+    .section-3 .content {
         flex-direction: column;
         align-items: center;
     }
-    .section-3 .img{
+
+    .section-3 .img {
         justify-content: center;
     }
 
@@ -1323,7 +1376,8 @@ footer .socials i {
         height: 29rem;
 
     }
-    .section-3 .text{
+
+    .section-3 .text {
         width: 34rem;
         height: auto;
     }
@@ -1332,11 +1386,13 @@ footer .socials i {
         font-size: 1.1rem;
         width: 100%;
     }
+
     .section-3 .text h1 {
         font-size: 3.5rem;
         margin-top: 1.6rem;
         /* width: 100%; */
     }
+
     .section-3 .text button {
         background-color: var(--secondary-color);
         /* border: 2px solid var(--primary-color); */
@@ -1346,21 +1402,55 @@ footer .socials i {
         margin-top: .5rem;
         font-size: 1.1rem;
         border-radius: .2rem;
-    
+
         /* padding: 1rem 0rem; */
         &:hover {
             cursor: pointer;
-    
+
         }
     }
 
+    .section-4 .numbers {
+        flex-direction: column;
+        row-gap: unset;
+    }
 
-   
+    .section-4 .numbers div {
+        padding: 3rem 0rem;
+    }
 
+
+
+    .section-4 .numbers>:nth-child(2) {
+        border: unset;
+        border-top: 1px solid var(--primary-color);
+        border-bottom: 1px solid var(--primary-color);
+        /* background-color: yellow; */
+        padding: 3rem 0rem;
+
+    }
+
+
+    .section-4 .numbers h1 {
+        font-size: 4rem;
+    }
+    
+    .section-4 .numbers h3 {
+        font-size: 2.5rem;
+    }
+
+
+    .section-5{
+        padding: 4rem .5rem;
+    }
     .section-5 .text p {
         width: 100%;
-        font-size: .94rem;
+        font-size: 1.2rem;
     }
+    .section-5  h1{
+        font-size: 7rem;
+    }
+
 
 
 
@@ -1388,36 +1478,78 @@ footer .socials i {
         margin-top: 2rem;
     }
 
+    .section-7 .sub-section-2 .text h3 {
+        font-size: 1.65em;
+    }
+
     .section-8 form button {
-        width: 6rem;
-        height: 2.4rem;
-        font-size: .95rem;
-        
-    
+        width: 6.7rem;
+        height: 2.7rem;
+        font-size: 1.1rem;
+
+
         &:hover {
             background-color: transparent;
             border: 2px solid var(--secondary-color);
             color: var(--secondary-color);
         }
     }
-    
-   
+
+    footer{
+        min-height: 13.5vh;
+    }
+
+    footer .text p{
+        font-size: 1.3rem;
+        width: 75%;
+    }
+    footer .socials i{
+        font-size: 2.1rem;
+    }
+
 }
 
 
 @media (max-width:360px) {
+    .nav-1 ul {
 
-    .hero{
+        font-size: 1.3rem;
+        gap: 1.4rem;
+    }
+    .hero {
         min-height: 45vh;
     }
+
     .hero .div-1 h2 {
         font-size: 2.8rem;
         line-height: 2.9rem;
         width: 90%;
-        
+
     }
 
-   
+    .section-2{
+        padding: 2rem 0rem;
+    }
+
+    .section-2 .boxes{
+        grid-template-columns: 1fr;
+        padding-left: .7rem;
+        padding-right: .7rem;
+    }
+    .section-2 .boxes .box{
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    .section-2 .boxes .box i{
+        font-size: 3.7rem ;
+    }
+    .section-2 .boxes .box h2{
+        font-size: 6.4vw;
+    }
+    .section-2 .boxes .box p{
+        font-size: 1.45rem;
+    }
+
     .section-6 .services .service {
         font-size: 11px;
         height: 3.5em;
@@ -1425,7 +1557,7 @@ footer .socials i {
     }
 
     .section-7 .sub-section-1 .text {
-        width: 105%;
+        width: 95%;
     }
 
     .section-7 .sub-section-2 .img img {
@@ -1435,15 +1567,16 @@ footer .socials i {
 
 
     .section-8 form label {
-        font-size: 1.6rem;
+        font-size: 1.8rem;
+        margin-bottom: .6rem;
     }
 
     .section-8 form input,
-form textarea {
-    padding: 0rem .15rem;
-    font-size: 1.35rem;
-    margin-bottom: 1.5rem;
-    padding-bottom: .35rem;
-}
+    form textarea {
+        padding: 0rem .15rem;
+        font-size: 1.35rem;
+        margin-bottom: 1.5rem;
+        padding-bottom: .35rem;
+    }
 
 }
