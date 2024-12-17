@@ -1124,6 +1124,7 @@ footer .socials i {
 
     .section-7 .sub-section-1 .text .boxes {
         gap: .5em;
+        grid-template-columns: 1fr;
     }
 
     .section-7 .sub-section-1 .text .boxes .box {
@@ -1172,15 +1173,15 @@ footer .socials i {
         padding: .5rem 1.5rem;
         grid-template-columns: 1fr 1fr;
     }
-
+  
     .section-6 .services {
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
     }
 
     .section-6 .services .service {
-        font-size: 17px;
-        width: 35vw;
+        font-size: 15px;
+        width: 40vw;
     }
 
     .section-6 .service-box p {
@@ -1273,7 +1274,7 @@ footer .socials i {
 
     .section-2 .boxes {
         padding: .5rem 1.5rem;
-        grid-template-columns: 1fr 1fr;
+        /* grid-template-columns: 1fr 1fr; */
     }
 
     .section-3 {
@@ -1299,8 +1300,9 @@ footer .socials i {
     }
 
     .section-6 .services .service {
-        font-size: 17px;
-        width: 35vw;
+        font-size: 13px;
+        height: 3.5em;
+        /* width: 35vw; */
     }
 
 
@@ -1328,6 +1330,12 @@ footer .socials i {
         line-height: 2.9rem;
         width: 90%;
         
+    }
+
+    .section-6 .services .service {
+        font-size: 11px;
+        height: 3.5em;
+        /* width: 35vw; */
     }
 
     .section-7 .sub-section-1 .text {
