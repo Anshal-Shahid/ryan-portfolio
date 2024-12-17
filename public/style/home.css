@@ -1236,7 +1236,7 @@ footer .socials i {
     }
 
     .section-6 .service-box p {
-        font-size: 1.1em !important;
+        font-size: 1.2em !important;
     }
 
 
@@ -1548,6 +1548,11 @@ footer .socials i {
     }
     .section-2 .boxes .box p{
         font-size: 1.45rem;
+    }
+
+    .section-6 {
+        padding-left:1rem ;
+        padding-right:  1re; ;
     }
 
     .section-6 .services .service {
