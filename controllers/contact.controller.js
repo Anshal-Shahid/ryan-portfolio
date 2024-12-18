@@ -11,17 +11,17 @@ console.log(`email:${email}`);
         host: 'smtp.gmail.com',
         port:587,
         auth: {
-            user: 'anshalshahid2@gmail.com',
-            pass:'jjamzshipawqfygs'  // cr ben key
+            user: 'rayannadeem989@gmail.com',
+            pass:'sumsingrkuozxghs'  // cr ben key
         }
     });
     
 
     // Email options
     const info = await transporter.sendMail({
-        from: `"${name} (${email})" <anshalshahid2@gmail.com>`,
+        from: `"${name} (${email})" <rayannadeem989@gmail.com>`,
 
-        to: "anshalshahid2@gmail.com", // list of receivers
+        to: "rayannadeem989@gmail.com", // list of receivers
         subject: `${name}`, // Subject line
         text: `${message}`, // plain text body
         html: `<b>Subject: Mail from website</b> 
