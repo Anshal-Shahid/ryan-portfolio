@@ -380,7 +380,7 @@ span {
     width: 18rem;
     height: 20rem;
     border-radius: .5rem;
-    border: 3px solid var(--secondary-color);
+    /* border: 3px solid var(--secondary-color); */
     /* border: 13px solid rgb(67, 14, 53); */
     /* margin: 0 auto; */
     /* border-radius: 50%; */
