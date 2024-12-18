@@ -140,7 +140,10 @@ span {
     /* font-weight: normal; */
     display: block;
 }
-
+.nav-1 a{
+    text-decoration: none;
+    color: var(--secondary-color);
+}
 .nav-1 ul {
     list-style-type: none;
     font-family: hel;
@@ -204,11 +207,12 @@ span {
     flex: 1.1;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
+    justify-content: end;
+    height: fit-content;
     position: relative;
-    gap: 6rem;
+    gap: 1rem;
     margin-top: auto;
+    width: 65%;
 }
 
 .hero .div-2 {
@@ -222,16 +226,16 @@ span {
     font-weight: lighter;
     font-size: 2.6rem;
     line-height: 3.3rem;
-    width: 85%;
     /* flex: 1; */
     margin-top: auto;
 }
 
-.hero .div-1 h1 {
+.hero .div-1 p {
     /* flex: 1; */
-    font-size: 2.3rem;
-    font-family: mould;
-    font-weight: lighter;
+    font-size: .9rem;
+    width: 65%;
+    color: var(--primary-color);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .hero .div-2 {
@@ -289,7 +293,7 @@ span {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     width: 100%;
-    padding: .5rem 4rem;
+    padding: .5rem 2rem;
     gap: .5rem;
     /* align-items: stretch; */
 }
@@ -541,18 +545,24 @@ span {
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 2rem;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: start; */
 }
 
 .section-6 .services {
     /* width: 73vw; */
     font-size: 24px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr ;
     /* flex-wrap: wrap; */
     /* place-items: center; */
     justify-content: center !important;
     gap: .1rem;
     margin-top: 2rem;
+    place-items: center;
+    /* width: 10vw; */
+
 }
 
 .section-6 .services .service {
@@ -777,8 +787,8 @@ span {
 }
 
 .section-7 .sub-section-2 .text button {
-    font-size: .7em;
-    padding: .7em 1.3em;
+    font-size: .8em;
+    padding: .7em 1.7em;
     width: unset;
     font-weight: bold;
     width: fit-content;
@@ -965,10 +975,15 @@ footer .socials i {
 
 @media (max-width:1200px) {
     .hero .div-1 h2 {
-        font-size: 2.3rem;
+        font-size: 2.5rem;
         line-height: 3.3rem;
-        width: 85%;
+        
 
+    }
+    .hero .div-1 p {
+        font-size: .9rem;
+        /* width: 85%; */
+    
     }
 
     .section-6 .service {
@@ -988,10 +1003,14 @@ footer .socials i {
     }
 
     .hero .div-1 h2 {
-        font-size: 2rem;
+        font-size: 2.4rem;
         line-height: 2.4rem;
-        width: 85%;
 
+    }
+    .hero .div-1 p {
+        font-size: .8rem;
+        width: 55%;
+        
     }
 
     .section-3 {
@@ -1059,10 +1078,15 @@ footer .socials i {
     }
 
     .hero .div-1 h2 {
-        font-size: 2.8rem;
+        font-size: 3rem;
         line-height: 2.9rem;
-        width: 80%;
+        /* width: 80%; */
 
+    }
+    .hero .div-1 p {
+        font-size: 1rem;
+        width: 70%;
+        
     }
 
     .hero .div-2 {
@@ -1072,12 +1096,12 @@ footer .socials i {
 
     .section-2 .boxes {
 
-        padding: .5rem 3rem;
+        padding: .5rem .5rem;
     }
 
     .section-2 .boxes .box p {
-        font-size: .85rem;
-        width: 96%;
+        font-size: .83rem;
+        width: 90%;
     }
 
     .section-3 {
@@ -1119,6 +1143,8 @@ footer .socials i {
         font-size: 17px;
     }
 
+    
+
     .section-6 .services .service h2 {
         /* font-size: .7em; */
     }
@@ -1133,6 +1159,8 @@ footer .socials i {
         font-size: 17px;
     }
 
+    
+
     .section-7 .sub-section-1 {
         width: 98vw;
         gap: .8em;
@@ -1140,8 +1168,15 @@ footer .socials i {
     }
 
     .section-7 .sub-section-1 .text>p {
-        font-size: 1em;
+        font-size: 1.1em;
         width: 85%;
+        margin-bottom: 1rem;
+    }
+    .section-7 .sub-section-1 .text>h1 {
+        font-size: 1.3em;
+    }
+    .section-7 .sub-section-1 .text>h2 {
+        font-size: 1.9em;
     }
 
     .section-7 .sub-section-1 .text .boxes .box i {
@@ -1158,6 +1193,7 @@ footer .socials i {
         width: 100%;
         height: auto;
         border-radius: .7em;
+        padding: 1.5em .8em;
 
     }
 
@@ -1184,6 +1220,41 @@ footer .socials i {
         width: 95%;
     }
 
+    /* ************* */
+
+    .section-7 {
+        font-size: 15.5px;
+        padding-top: 4rem;
+    }
+
+    .section-7 .sub-section-1 {
+        justify-content: center;
+    }
+
+    .section-7 .sub-section-1 .text {
+        width: 90%;
+    }
+
+
+    .section-7 .sub-section-1 .img {
+        display: none;
+
+    }
+
+    .section-7 .sub-section-2 {
+        flex-direction: column;
+        width: 90vw;
+        gap: 1em;
+    }
+
+    .section-7 .sub-section-2 .img img {
+        width: 18em;
+        height: 15.5em;
+    }
+
+
+
+
     .section-8 {
         padding: 1rem 2.5rem;
 
@@ -1209,7 +1280,7 @@ footer .socials i {
     .hero .div-1 h2 {
         font-size: 2.5rem;
         line-height: 2.9rem;
-        width: 90%;
+        /* width: 90%; */
 
     }
 
@@ -1221,13 +1292,22 @@ footer .socials i {
 
 
     .section-2 .boxes {
-        padding: .5rem 1.5rem;
+        padding: .5rem  .5rem;
         grid-template-columns: 1fr 1fr;
     }
 
     .section-6 .services {
         grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto; /* Two rows */
+        width: auto;
+        display: grid;
+        place-items: center;
         gap: 1rem;
+    }
+
+    .section-6 .services :nth-child(3){
+        grid-column: 1 / span 2; /* Makes the third box span across both columns */
+
     }
 
     .section-6 .services .service {
@@ -1328,8 +1408,13 @@ footer .socials i {
     .hero .div-1 h2 {
         font-size: 2.8rem;
         line-height: 2.9rem;
-        width: 90%;
+        /* width: 90%; */
 
+    }
+    .hero .div-1 p {
+        font-size: .9rem;
+        /* width: 65%; */
+        
     }
 
 
@@ -1445,7 +1530,7 @@ footer .socials i {
     }
     .section-5 .text p {
         width: 100%;
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
     .section-5  h1{
         font-size: 7rem;
@@ -1513,7 +1598,7 @@ footer .socials i {
 @media (max-width:360px) {
     .nav-1 ul {
 
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         gap: 1.4rem;
     }
     .hero {
@@ -1523,8 +1608,15 @@ footer .socials i {
     .hero .div-1 h2 {
         font-size: 2.8rem;
         line-height: 2.9rem;
-        width: 90%;
+        /* width: 90%; */
+        margin-bottom: 1rem;
+        overflow-wrap: break-word;
 
+    }
+    .hero .div-1 p {
+        font-size: 1rem;
+        /* width: 65%; */
+        
     }
 
     .section-2{
