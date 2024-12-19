@@ -237,6 +237,7 @@ span {
     font-size: .9rem;
     width: 60%;
     margin: 0 auto;
+    margin-top: .4rem;
     color: var(--primary-color);
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -380,7 +381,7 @@ span {
 }
 
 .section-3 .img img {
-    width: 18rem;
+    width: 20rem;
     height: 20rem;
     border-radius: .5rem;
     /* border: 3px solid var(--secondary-color); */
@@ -733,6 +734,7 @@ span {
     display: flex;
     flex-direction: column;
     gap: .6em;
+    /* flex: 1; */
 }
 
 .section-7 .sub-section-1 .text .boxes .box i {
@@ -1460,8 +1462,8 @@ footer .socials i {
     }
 
     .section-3 .img img {
-        width: 34rem;
-        height: 29rem;
+        width: 30rem;
+        height: 28rem;
 
     }
 
