@@ -7,7 +7,7 @@ const service_para = document.querySelector(".service-box p")
 
 // const service_active=document.querySelector(".service-active")
 
-service_para.innerHTML = "Struggling to increase traffic to your website? I’m here to help! With my expert SEO services, I’ll optimize your site to attract more visitors and keep them engaged. 🌟 <br> <br> By utilizing advanced SEO techniques and tailored strategies, I ensure that your content ranks higher on search engines, bringing in more organic traffic and boosting your online visibility. 📈 Let’s work together to transform your website into a traffic powerhouse! 💻"
+service_para.innerHTML = "Struggling to increase traffic to your website? I’m here to help! With my expert SEO services, I’ll optimize your site to attract more visitors and keep them engaged. <br> <br> By utilizing advanced SEO techniques and tailored strategies, I ensure that your content ranks higher on search engines, bringing in more organic traffic and boosting your online visibility. Let’s work together to transform your website into a traffic powerhouse!"
 service_box1.classList.add("service-active")
 
 
@@ -18,7 +18,7 @@ service_box1.addEventListener("click", () => {
     service_box3.classList.remove("service-active")
     // service_box4.classList.remove("service-active")
 
-    service_para.innerHTML = "Struggling to increase traffic to your website? I’m here to help! With my expert SEO services, I’ll optimize your site to attract more visitors and keep them engaged. 🌟 <br> <br> By utilizing advanced SEO techniques and tailored strategies, I ensure that your content ranks higher on search engines, bringing in more organic traffic and boosting your online visibility. 📈 Let’s work together to transform your website into a traffic powerhouse! 💻"
+    service_para.innerHTML = "Struggling to increase traffic to your website? I’m here to help! With my expert SEO services, I’ll optimize your site to attract more visitors and keep them engaged. <br> <br> By utilizing advanced SEO techniques and tailored strategies, I ensure that your content ranks higher on search engines, bringing in more organic traffic and boosting your online visibility. Let’s work together to transform your website into a traffic powerhouse!"
 })
 service_box2.addEventListener("click", () => {
     service_box2.classList.add("service-active")
@@ -26,7 +26,7 @@ service_box2.addEventListener("click", () => {
     service_box3.classList.remove("service-active")
     // service_box4.classList.remove("service-active")
 
-    service_para.innerHTML = "Want to create a seamless and engaging experience for your website visitors? I specialize in improving user experience (UX) to ensure your audience enjoys navigating your site. 🚀<br><br>From optimizing website design and structure to enhancing load speed and accessibility, I focus on every detail to keep your visitors engaged and encourage them to take action. 📈 Let’s work together to create a website that not only attracts visitors but keeps them coming back!"
+    service_para.innerHTML = "Want to create a seamless and engaging experience for your website visitors? I specialize in improving user experience (UX) to ensure your audience enjoys navigating your site. <br><br>From optimizing website design and structure to enhancing load speed and accessibility, I focus on every detail to keep your visitors engaged and encourage them to take action. Let’s work together to create a website that not only attracts visitors but keeps them coming back!"
 })
 service_box3.addEventListener("click", () => {
     service_box3.classList.add("service-active")
@@ -35,7 +35,7 @@ service_box3.addEventListener("click", () => {
     // service_box4.classList.remove("service-active")
 
 
-    service_para.innerHTML = "Ready to turn visitors into customers? I specialize in optimizing websites to boost conversion rates and maximize your return on investment. 🚀 <br><br>By analyzing user behavior and refining key elements like calls-to-action, landing pages, and site flow, I help you convert more visitors into loyal customers. 📈 Let’s work together to create a website that drives results and helps your business grow!"
+    service_para.innerHTML = "Ready to turn visitors into customers? I specialize in optimizing websites to boost conversion rates and maximize your return on investment. <br><br>By analyzing user behavior and refining key elements like calls-to-action, landing pages, and site flow, I help you convert more visitors into loyal customers. Let’s work together to create a website that drives results and helps your business grow!"
 })
 // service_box4.addEventListener("click", () => {
 //     service_box4.classList.add("service-active")

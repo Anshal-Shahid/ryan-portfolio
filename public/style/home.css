@@ -977,6 +977,12 @@ footer .socials i {
 
 
 
+footer a{
+    color: white;
+}
+
+
+
 
 @media (max-width:1200px) {
     .hero .div-1 h2 {
