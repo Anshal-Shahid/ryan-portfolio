@@ -133,13 +133,19 @@ span {
     font-family: hel;
     background-color: var(--primary-color);
     border-bottom: 2px solid var(--secondary-color);
-    min-height: 7vh;
+    height: 9vh;
 }
 
 .nav-1 .text h1 {
     /* font-weight: normal; */
     display: block;
 }
+
+/* .nav-1 .text img{
+    width: 100%;
+    height: 2.8rem;
+} */
+
 .nav-1 a{
     text-decoration: none;
     color: var(--secondary-color);
