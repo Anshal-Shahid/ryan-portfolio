@@ -878,13 +878,17 @@ span {
 .section-8 .sub-section-1 i {
     font-size: 1.35rem;
 }
-
+.section-8 .sub-section-1 .socials{
+    display: flex;
+    gap: .3rem;
+}
 .section-8 .sub-section-1 a {
     font-size: 1.1rem;
-    margin-left: .25rem;
+    /* margin-left: .25rem; */
     color: var(--secondary-color);
     position: relative;
     bottom: .2rem;
+    text-decoration: none;
 }
 
 .section-8 .sub-section-2 {
